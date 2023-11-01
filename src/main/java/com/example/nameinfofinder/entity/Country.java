@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Country {
-    private int country_id;
-    private int probability;
+    private String country_id; // Change int to String
+    private double probability; // Change int to double
     
 }

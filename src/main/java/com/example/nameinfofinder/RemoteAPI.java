@@ -68,8 +68,8 @@ public class RemoteAPI implements CommandLineRunner {
         
         // Get nationality for Steffen
         Mono<NationalityResponse> nationalityResultForSteffen = getNationalityForName(name);
-        System.out.println(nationalityResultForSteffen.block().getCountries().size());
-        
+        System.out.println(nationalityResultForSteffen.block().getCountry().size());
+                
 
 
     }
